@@ -1,6 +1,6 @@
 # Disciplina: 0803.000163-9 - ENGENHARIA E PROGRAMAÇÃO PARA WEB I   
-## Ano/Semestre: 2017/1
-## Professor(a): MARCEL SEIJI KAY
+# Ano/Semestre: 2017/1
+# Professor(a): MARCEL SEIJI KAY
 
 ## Aulas
 ### Aula - 1 -  19/04/2017
