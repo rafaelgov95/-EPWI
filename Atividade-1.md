@@ -47,6 +47,6 @@ O sistema para Policia Militar consiste em desenvolver um gerenciador de medidas
 ## Glossário
 
 * Medida Protetiva
- * Uma medida protetiva e um documento expedido pelo juiz com poder de proteção para a vitima
+  - Uma medida protetiva e um documento expedido pelo juiz com poder de proteção para a vitima
 * Backup
- * Cópia de segurança ou cópia de salvaguarda
+  - Cópia de segurança ou cópia de salvaguarda
