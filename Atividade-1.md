@@ -19,11 +19,11 @@ O sistema para Policia Militar consiste em desenvolver um gerenciador de medidas
 
 3. O sistema deve permitir a consulta a medida por nome da vitima, nome do acusado, bairro da vitima juntamente da  impressão do documento original.
 
-### B3 – Usuarios diferentes 
+### B3 – Usuarios diferentes(Usuario/Gerenciador)
 
 4. O sistema deve possuir 2 niveis de usuarios com privilegios diferentes no sistma: gerenciador e usuario, o gerenciador lanca os dados, o usuario apenas consulta e imprimi. 
 
-5. O sistema deve estar 24 horas nos 7 dias da semenana para consulta e impressão de medida. 
+5. O sistema deve permitir consulta e impressão de medida. 
 
 ## C – REQUISITOS NÃO FUNCIONAIS
 
@@ -40,9 +40,13 @@ O sistema para Policia Militar consiste em desenvolver um gerenciador de medidas
 9. O sistema deve responder a consultas on-line em menos de 5 segundos.
 
 10. O sistema deve iniciar a impressão de relatórios solicitados dentro de no máximo 20 segundos após sua requisição.
+
 ### C3. Portabilidade
 
 11. O sistema deve ser web e adaptavel para dispositivos moveis.
+
+### C4. Disponibilidade
+12. O sistema deve estar 24 horas nos 7 dias da semenana online.
 
 ## Glossário
 
