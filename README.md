@@ -13,5 +13,8 @@
     - Revisão
 ### Aula - 5 -  17/05/2017
     - Proposta de atividae para levantamento de requisito de uma aplicação.
+### Aula - X -  07/06/2017
+    - Slides sobre HTML.
+    
 ## Atividades
    [Atividade-1](https://github.com/rafaelgov95/EPWI/blob/master/Atividade-1.md)
