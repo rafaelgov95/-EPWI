@@ -3,7 +3,7 @@
 ## Fasés Genericas de Desenvolvimento de Software
  * Definição -> Construção -> Software Produto -> Manutenção
 
-   ### Definicão 
+   ### Definicão - o que
    
       * Análise de Sistema
       * Planejamento do Projeto
@@ -16,5 +16,19 @@
 
         -  restrições do projeto
      
-        -  critérios de validação requeridos
+        -  critérios de validação requeridos    
+    
+   ### Construção - Como 
+        * Projeto(Design)
+        * Codificação
+        * Teste
+        * Informações a serem processadas
+         
+          * como devem ser projetadas a estrutura de dados e a arquitetura do software
+
+          * como os procedimentos devem ser implementados
+
+          * como o projeto deve ser traduzido para uma linguagem de programação
+
+          * como o teste deve ser executado.    
 ## 
