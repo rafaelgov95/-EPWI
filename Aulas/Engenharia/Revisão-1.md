@@ -37,6 +37,7 @@
         * Modificação
         * Revaliação
         * Informações a serem processadas
+
             * correções decorrentes de erros –  manutenção corretiva
 
             * adaptações requeridas decorrentes de alterações no meio ambiente – manutenção adaptativa 
@@ -44,4 +45,34 @@
             * melhoramentos relacionados a novas funções desejadas pelo usuário – manutenção perfectiva.
 
             * Melhorias na arquitetura do software e na legibilidade do código fonte sem alterar a funcionalidade – manutenção preventiva
-## 
+ ## Espera-se do Processo de Software
+    * Controlado 
+    * Medido
+    * Gerenciado
+    * Eficiente 
+    * Definido  
+
+  ## Existe diversos modelos de Software
+   Existem varios modelos entre eles:
+   ### Modelo Sequencial Linear (Cascata)
+        Engenaharia de Sistemas -> Análise de Requisitos -> Design -> Codificação -> Testes -> Manuteção
+       
+       * Engenharia de Sistemas 
+         - envolve a coleta de requisitos de em nível do sistema, com análise de alto nível
+         
+       * Análise de Requsitos
+         - o processo de coleta dos requisitos é intensificado e concentrado especificamente no software
+         - deve-se ter compreender o domínio da informação, a função desempenho e interfaces exigidas.
+         - os requisitos são documentos e revistos com o cliente
+
+        - Modelo mais antigo (década 70)
+        - requer uma abordagem sistemática, sequencial ao desenvolvimento de software
+        - o resultado de uma fase se constitui na entrada da outra.
+
+        
+   ### Modelo Incremental
+   ### Modelo Espiral
+   ### Modelo de Montagem de Componentes
+   ### Modelo de Desenvolvimento Concorrente
+
+ ## 
