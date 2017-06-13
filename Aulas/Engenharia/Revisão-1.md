@@ -31,4 +31,17 @@
           * como o projeto deve ser traduzido para uma linguagem de programação
 
           * como o teste deve ser executado.    
+   
+   ### Manutenção - Mudanças
+        * Entendimento 
+        * Modificação
+        * Revaliação
+        * Informações a serem processadas
+            * correções decorrentes de erros –  manutenção corretiva
+
+            * adaptações requeridas decorrentes de alterações no meio ambiente – manutenção adaptativa 
+
+            * melhoramentos relacionados a novas funções desejadas pelo usuário – manutenção perfectiva.
+
+            * Melhorias na arquitetura do software e na legibilidade do código fonte sem alterar a funcionalidade – manutenção preventiva
 ## 
