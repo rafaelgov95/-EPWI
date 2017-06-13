@@ -98,9 +98,96 @@
          - E) recomenda a geração de versões  incompletas do sistema, que podem ser passads para o usuário final o que permite a retroalimentação do processo de desenvolvimento
    ### Modelo Paradigma de Prototipação
         * Objetivo : Entender os requisitos do usuário.
+        * possibilidade que o desenvolvedor crie um modelo (protótipo ) do software que deve ser construído.
+        * apropriado quando o cliente definiu um conjunto de objetivos gerais apra o software, mas não identificou detalhamente esses requisitos
+        Obter Requisitos -> Elabora Projeto Rápido -> Construir Protótipo -> Avaliar Protótipo -> Refinamento do Protótipo 
+        ouça o cliente -> construa/revise protótipo -> teste do protótipo pelo cliente
+        * Ober Requsitos
+            - Definem os objetos gerais
+            - Identificam quais requsitos são conhecidos
+            - Identificam as áreas que nocessitam de definições adicionais.
+        * Elaborar Projeto Rápido
+            - Representação dos aspectos do software que são visíveis ao usuário.
+            - abordagens de entra e saida
+        * Construir Protótipo 
+            - Implementação rápida do projeto
+        * Avaliar Protótipo
+            - Cliene e desenvolvedor avaliam o protótipo
+        * Refinamento do Protótipo
+            - Cliente e desenvolvedor refinam os requisitos do software a ser desenvolvido
+        * Construção do produto
+            - Identificadors os requisitos, o protótipo deve ser descartado e a versão de produção deve ser construida considerando os critérios de qualidade
+        * Dificuldades:
+            - cliente não sabe que o software que ele vê, não considerou durante o desenvolvimento, a qualidade global e a manitenibilidade a longo prazo. Não aceita bem a ideia de "jogar fora " oque foi feito. 
+            - desenvolvedor frequentemente desenvove o protótipo de forma comprometida (utilizando oque está disponível). Depois de um tempo ele se familiariza com essas escolhas, e pode ser que esqueça que elas não são apropraiadas para o produto final.
+
    ### Modelo Incremental
+        * Combina Elementos do modelo cascata (aplicando repetidamente) com a filosofia iterativa da protótipação.
+        * Usado quando é difici estabelecer a priori uma espeficicação detalhada dos requisitos.
+        * Objetivo : trabalhar junto do usuário a fim de descobrir sues requisitos, de maneira incremental, até que o produto final seja obtido.
+      * Fluxo Grama
+         Definição de Requisitos Inicial -> Atribuição de Requisitos à Incrementos -> Design da Arquitetura do Sistema -> Desenvolvimento do Incremento -> Validação do Incremento -> Integracao do Incremento -> Validação do Sistema(podendo voltar para desenvolvimento do Incremento) -> Sistema Final 
+         - Análise  -> Design -> Codificação -> Testes
+
+       * Principais Caracteristicas 
+            - Há Diversos Incrementos
+            - Principais necessidades são atentidas primeiro
+            - Requisitos não mudam dentro de um incremento
+        * Vantagens 
+            - Os usuários iniciam o uso do sistema mais cedo
+            - Os incrementos iniciais podem servir de protótipos não descartáveis
+            - Há menores riscos de falha no projeto
+            - Diferente do paradigma da protótipação descartável, tem o objetivo de apresentar um produto operacional a cada incremento
+            - Os testes podem ser mais efetivos(melhor testar partes pequenas doque tudo no final)
+            - É melhor que a abordagem cascata para a maioria dos sistemas de negócio, e-commerce e sistemas pessiais.
+            - Custo de acomodar mudanças nos requisitos do cliente é reduzido.
+            - É mais fácil obter feedback dos clientes.
+            - É possível obeter implementação e entrega rápida de software útil ao cliente.
+        * Desvantagens
+            - Os incrementos deveriam ser pequenos
+            - A alocação de requisitos a incrementos de tamanho correto pode ser difícil.
+        * Aplicabilidade 
+            - Requisitos não muito bem conhecidos( todavia o escopo deve ser bem conhecido)
+            - Requisitos não tão estávies.     
    ### Modelo Espiral
-   ### Modelo de Montagem de Componentes
-   ### Modelo de Desenvolvimento Concorrente
+        * Principais Caracteristicas
+            - Cada iteração da espiral representa uma fase do processo de software
+            - A Primeira pode tratar a viabilidade do sistema; a segunda sobre requesitos; a terceira sobre design....
+            - Não já fases fixas -> decide-se no planejamento.
+            - Diferencial em relação a outros modelos (foco em riscos)
+        * Fluxo Grama
+            Determinar objetivos, alternativas e restrições -> avaliar alternativas, identificar, resolver riscos -> desenvolver, verificar, produto de próximo nível -> Planejar prómxia fase.
+            - Engloba as melhores características do modelo Cascata e da Prototipação, adicionando um novo elemento: a Análise de Risco
+        * Riscos
+            - é um problema em potencial pode ou não acontecer
+            - Exemplos: 
+                - Dificuldade de comunicação devido a dsitrubição geográfica da equipe.
+                - Indisponibilidade de usuários das áreas de negócio para levantamento de informações durante a requeistos.
+            - Os riscos devem ser:
+                - Identificados
+                - Estimados
+                - monitorados
+                - mitigados
+                - contingenciados
+            Sendo assim capacita o desenvolvedor e o cliente a entender e reagir aos riscos em cada etapa evolutiva.
+        * Aplicabilidade
+            - recomendável para projetos complexos, com alto risco e requisitos pouco conhecidos
+            - Adequado para a área de jogos pois, em geral:
+                - os requistos não são conhecidos sem que protótipos tenham sido testados e os riscos se apresentam altos tanto do pronto de vista tenológico quanto do ponto de vista de usabilidade do sistema.
+
+
+   ### Técnicas de Quarta Geração 
+     Engloba um conjunto de ferramentas de software que possibilita que:
+            - o sistema seja especificado em uma linguagem de alto nível;
+            - o código fonte seja gerado automaticamente a partir dessas especificações
+        - O Ambiente de desenvolvimento de software que sustenta o ciclo de vida de 4ª geração inclui as ferramentas:
+            - linguagens para consulta de banco de dados
+            - geração de relatórios, planilhas e manipulação de dados.
+            - interação e definição de telas
+            - geração de código
+            - capacidade gráfica de alto nível
+            - criação automática de páginas web
+
+        Obtenção dos requisitos -> Estratégia do Design -> Implementação usando 4GL -> Testes
 
  ## 
