@@ -14,9 +14,9 @@
 
         - interfaces que devem ser estabelecidas
 
-        -  restrições do projeto
+        - restrições do projeto
      
-        -  critérios de validação requeridos    
+        - critérios de validação requeridos    
     
    ### Construção - Como 
         * Projeto(Design)
@@ -58,18 +58,30 @@
         Engenaharia de Sistemas -> Análise de Requisitos -> Design -> Codificação -> Testes -> Manuteção
        
        * Engenharia de Sistemas 
-         - envolve a coleta de requisitos de em nível do sistema, com análise de alto nível
+          - envolve a coleta de requisitos de em nível do sistema, com análise de alto nível
          
        * Análise de Requsitos
-         - o processo de coleta dos requisitos é intensificado e concentrado especificamente no software
-         - deve-se ter compreender o domínio da informação, a função desempenho e interfaces exigidas.
-         - os requisitos são documentos e revistos com o cliente
-
-        - Modelo mais antigo (década 70)
-        - requer uma abordagem sistemática, sequencial ao desenvolvimento de software
-        - o resultado de uma fase se constitui na entrada da outra.
-
-        
+          - o processo de coleta dos requisitos é intensificado e concentrado especificamente no software
+          - deve-se ter compreender o domínio da informação, a função desempenho e interfaces exigidas.
+          - os requisitos são documentos e revistos com o cliente
+          - Modelo mais antigo (década 70)
+          - requer uma abordagem sistemática, sequencial ao desenvolvimento de software
+          - o resultado de uma fase se constitui na entrada da outra.
+       * Design
+          - Tradução dos requistos do sofware para um cojunto de representações que    podem ser avaliadas quando à qualidade, antes que a codificação se inicie
+                 - Estrutura de Dados
+                 - Arquitetura de Sofware
+                 - Detalhes Procedimentais e Caracterização de Interfaces
+       * Codificação
+          - Tradução das representações do projeto para uma linguagem "Artificial" resultando em instruções executávies pelo computador
+       
+       * Testes 
+          - nos aspectos lógicos internos do software -> garatia que "todas" as instruções tenham sido testadas
+          - nos aspectos funcionais externos, para descobir erros e garantir que a enrada definida produza resultados que concordem com os esperados 
+       * Menutenção
+         - provavelente o software deveŕa sofrer mudanças depois que for entrege ao cliente
+         - causas das mudanças: erros, adaptação do software para acomodar mudançãs em seu ambiente externo exigência do cliente para acréscimos funcionais e de desempenho
+         
    ### Modelo Incremental
    ### Modelo Espiral
    ### Modelo de Montagem de Componentes
