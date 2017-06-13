@@ -81,7 +81,23 @@
        * Menutenção
          - provavelente o software deveŕa sofrer mudanças depois que for entrege ao cliente
          - causas das mudanças: erros, adaptação do software para acomodar mudançãs em seu ambiente externo exigência do cliente para acréscimos funcionais e de desempenho
-         
+        * Problemas com o modelo Cascata
+            - Projetos reias raramente seguem o fluxo sequencial que o modelo propõe
+            - Logo no início é difíficl estabelecere explicitamente todos os requisitos no começo dos projetos sempre existe uma incereteza natural
+            - o cliente deve ter paciência uma versão executáve do software só fica disponivel em uma etapa avançada do desenvolvimento.
+        * Aplicabilidade 
+             - Requisitos bem conhecidos
+             - Requistos estáveis
+             - Baixa probabilidade de mudanças em tecnologia
+      Embora o Modelo Cascata tenha fragilidades e melhor que não ter um modolo(abordagem casual ao desenvolvimento).
+        * Questão ciclo de vida em cascata:
+         - A) enfatiza a realização seuqncial das atividades do desenvolvimento de um produto de sotware
+         - B) enfatiza a cmunicação estreita com cliente durante o desenvolvimento do produto de software.
+         - C) envolve a ideia principal de cria rum protótipo executável e, por meio de transformações sucessivavs, chgar ao sistema completamente implementado
+         - D) envolve a análise dos riscos envolvido no desenvolvimento dos requisitos identificados para produtos de software 
+         - E) recomenda a geração de versões  incompletas do sistema, que podem ser passads para o usuário final o que permite a retroalimentação do processo de desenvolvimento
+   ### Modelo Paradigma de Prototipação
+        * Objetivo : Entender os requisitos do usuário.
    ### Modelo Incremental
    ### Modelo Espiral
    ### Modelo de Montagem de Componentes
