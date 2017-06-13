@@ -3,12 +3,12 @@
 ## Fasés Genericas de Desenvolvimento de Software
  * Definição -> Construção -> Software Produto -> Manutenção
 
-   # Definicão 
+   ### Definicão 
    
       * Análise de Sistema
       * Planejamento do Projeto
       * Análise de Requisitos
-      - Informações a serem processadas
+      * Informações a serem processadas
 
         - funções e desempenho desejados
 
