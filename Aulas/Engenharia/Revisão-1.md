@@ -190,4 +190,128 @@
 
         Obtenção dos requisitos -> Estratégia do Design -> Implementação usando 4GL -> Testes
 
+        - Obtenção dos Requisitos
+            - O cliente descreve oso requsitos os quais são traduzidos para um protótipo operancional
+                - o cliente pode estar inseguro quanto os requsitos
+                - as 4GLs atuais não são sofisticadas suficientemente para acomodar a verdadeira linguagem natural
+        - Estratégia do Projeto
+            - Pequenas Aplicações é possivel mover-se do passo de Obtenção dos requsitos para o de implementacao usando uma linguage de quarta geração
+            - Grandes projetos é necessário desenvolver uma estratégia de desing. De outro modo ocorrerão os mesmo problemas encontrados quando se usa abordagem convecional(baixa qualidade)
+        - Implementação usando 4GL
+            - Os resultados desejados são representados de modo que haja geração automática de código
+        - Testes
+            - O o desenvolvedor deve efetudar testes e desenvolver um documentação significativa
+
+        * Vantagens 
+            - redução dramática no tempo de desenvolvimento do software(auemnto de produtividade)
+
+        * Desvantagens 
+            - as 4GL atuais não são mais fácies de usar do que as linguagens de programação
+            - o código fonte produzido é ineficiente
+            - a manitenibilidade de sistemas usando técnicas 4G ainda é questionável 
+   ### Modelos Ágeis de Processo
+        - Surgimento com manifesto para o desenvolvimento ágil(2001)
+        - Publicação de valores águis:
+            - Indivíduos e interações mais do que processos e ferreamentas
+            - Softwares funcionando mais do que documentação abragente
+            - Colaboração do cliente mais doque negociação de contratos
+            - Respostas a modificações mais doque seguir um plano
+         - Reação ás metodologias tradicionais
+         - Aliança Ágil: formada em Fev/2001 por 17 metodologistas
+         - Estabelecimento de 12 princípios ágeis.
+            - 1) Criar Software útil rapidamente
+            - 2) Desenvolviemnto incremental
+            - 3) Não há espeficação detalhada de deistema e a documentação do projeto é minimizada ou gerada automaticamente pelo ambiente de programação
+            - 4) Envolvimento do cliente
+            - 5) Pessoas mais do que proessos(os membros da equipe devem desenvolver suas próprias meniras de trabalhar sem processos prescritivos)
+            - 6) Aceite as mudanças
+            - 7) Mudanças nos requsutos são bem vindas, mesmo que tardias
+            - 8) Mantenha a simplicadae
+            - 9)Entrega frequente de software funcional
+            - 10) Desenvolvimento de projetos em torno de indivíduos motivados
+            - 11) Comunicação face a face
+            - 12) Equipes auto-organizada, que ajustam o comportamento para se tornarem mais efetivas
+        - O sistema é desenvolvido em sua série de versões. Os usuários finais e outros stakeholders são envolvidos na especificação e avaliacão de acada versão.
+        - Exemplos de metodologias Ágeis.
+            - Extreme Programming XP
+            - Scrum
+            - Crystal
+            - FDD(feature driven development)
+            - DAS(desenvolvimento adaptativo de software)
+
+        - Programação Exterma 
+            - Evolução da abordagem incremental. Desenvovida por Beck em 1999
+            - Voltada para equipes de até 20 pessoas engajadasno desenvolvimento de software cujos requsitos são vagos ou se encontram em constante mudança
+            - Principal atividade codificação
+            - Princial Contribuição aplicação extrema das práticas em um modelo coeso e sinérgico
+            - algumas caracteristicas
+                - cliente sempre presente
+                - o desenvolvimento e a entrega de incrementos de funcinalidade muito pequenos
+                - diálogo constante e evloutivo entre programadores e clientes
+                - constate melhoria de código
+                - projeto simples
+                - programação em pares
+                - 40 horas de trabalho (muito hora-extra é sinal de problemas com o projeto)
+                - propriedade coletiva
+                - Integração contínua
+                - Refactoring Abordagem disciplinada para tornar o código de um software mais claro e de fácil manutenção, minimizando a probabilidade de inclusão de erros.
+            - Planejamento
+                - Estórias
+                - Critérios de teste de acitação
+            - Projeto 
+                - Projeto simples (facilmente implementável)
+                - Cartôes CRC(Class Resposability)
+                - Protótipos
+            - Codificação
+                - Programacao em pares
+                - Testes de unidade(test-driven development)
+                - Integração contínua
+            - Teste 
+                - testes de aceitação
+            - Produto final
+                - Versão do software(incremento)
+                - Velocidade da Equipe registrada
+        - Exemplo de Cartão CRC
+
+            - Pedido (nome do cartão)
+            - Verifica se item está em estoque(produto)
+            - Determina preço(ItemPedido)
+            - Verifica Tipo de cliente (Cliente)
+            - Envia para endereco destino  
+
+        - Dificultadades
+         - O sucesso depende de um cliente  disposto e capaz de despender tempo com a equipe de desenvolvimento
+         - membros individuais da equipe podem não ter a personalidade adequada para o envolvimento intenso necessário
+         - Manter a simplicidade requer trabalho extra e pode não haver tempo para isso
+         - Há muito conhecimento sobre métodos ágeis durante o desenvolvimento de software. No entanto, há pouca informção sobre o seu uso durante a fase de manutenção
+    - Processo unificado PU
+        - é um modelo de preocesso de software baseado no modelo incremental, visando a construção de software oriento a objetos
+        - usa como notação orentado a objetos
+        - usa como notação de apoio a UML
+        - Fases Do PU
+            - Concepção
+            - Elaboração
+            - Construção
+            - Transsição
+
+        - Concepção
+            - Estabele-se a viabilidade de implatação do - - Definição do escopo do sistema
+            - Estimativas de custos e cronograma
+            - Identificação dos potenciasi riscos que devem ser gerenciados ao longo do projeto
+            - Esboço da arquitetura do sistema, que servirá como alicerce para a sua construção.
+            - Visão refinada do sistema, com a definição dos requsitos funcionais, detalhamento da arquitetura criada na fase anterior e gerenciamento contínuo dos riscos envolvidos.
+            - O sistema é efetivamente desenvolvido e em geral, tem condições de ser operado, mesmo que em ambiente de teste, pelos clientes.
+            - O sistema é entregue ao cliente par uso em produção.
+            - Testes são realizados e um ou mais incrementos do sistema são implantados.
+            - Defeitos são corrigidos, se necessário.
+        
+            Concepção -> (Elaboração -> Construção )-> Transição
+          
+            Concepção -> (Elaboração -> Construção -> Transição)
+
+            
+
+
+
+         
  ## 

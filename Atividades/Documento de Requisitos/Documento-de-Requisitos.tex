@@ -1,0 +1,403 @@
+%% MODELO DE LATEX PARA TRABALHOS ACADÊMICOS
+%% INSTRUÇÕES GERAIS:
+%%    1. TODO O TEXTO NA FRENTE DO SIMBOLO '%' É COMENTÁRIO, ISTO É, ELE NÃO FAZ DIFERENÇA NO RESULTADO FINAL 
+%%    2. NESTE MODELO, VOCÊS SÓ PRECISAM EDITAR DAS LINHAS 114 A 132 (INFORMAÇÕES DE CAPA) E DAS LINHAS 188 EM DIANTE (CORPO DO TRABALHO). O RESTO SÃO CONFIGURAÇÕES DE FORMATAÇÃO QUE PROVAVELMENTE NÃO SERÁ PRECISO MODIFICAR.
+%%    3. MAIS INSTRUÇÕES DETALHADAS PODERÃO SER ENCONTRADAS NA PÁGINA profhelioh.wordpress.com. DÚVIDAS: heliohenrique@ufpr.br OU heliohenrique3@gmail.com
+
+% INFORMAÇÕES DA FONTE:
+%% abtex2-modelo-relatorio-tecnico.tex, v-1.7.1 laurocesar
+%% Copyright 2012-2013 by abnTeX2 group at http://abntex2.googlecode.com/ 
+%%
+%% This work may be distributed and/or modified under the
+%% conditions of the LaTeX Project Public License, either version 1.3
+%% of this license or (at your option) any later version.
+%% The latest version of this license is in
+%%   http://www.latex-project.org/lppl.txt
+%% and version 1.3 or later is part of all distributions of LaTeX
+%% version 2005/12/01 or later.
+%%
+%% This work has the LPPL maintenance status `maintained'.
+%% 
+%% The Current Maintainer of this work is the abnTeX2 team, led
+%% by Lauro César Araujo. Further information are available on 
+%% http://abntex2.googlecode.com/
+%%
+%% This work consists of the files abntex2-modelo-relatorio-tecnico.tex,
+%% abntex2-modelo-include-comandos and abntex2-modelo-references.bib
+%%
+% ------------------------------------------------------------------------
+% ------------------------------------------------------------------------
+% abnTeX2: Modelo de Relatório Técnico/Acadêmico em conformidade com 
+% ABNT NBR 10719:2011 Informação e documentação - Relatório técnico e/ou
+% científico - Apresentação
+% ------------------------------------------------------------------------ 
+% ------------------------------------------------------------------------
+
+\documentclass[
+	% -- opções da classe memoir --
+	12pt,				% tamanho da fonte
+	% openright,			% capítulos começam em pág ímpar (insere página vazia caso preciso)
+    oneside,			% para impressão somente frente. Oposto a twoside (frente e verso)
+	a4paper,			% tamanho do papel. 
+	% -- opções da classe abntex2 --
+	chapter=TITLE,		% títulos de capítulos convertidos em letras maiúsculas
+	%section=TITLE,		% títulos de seções convertidos em letras maiúsculas
+	%subsection=TITLE,	% títulos de subseções convertidos em letras maiúsculas
+	%subsubsection=TITLE,% títulos de subsubseções convertidos em letras maiúsculas
+	% -- opções do pacote babel --
+	english,			% idioma adicional para hifenização
+	french,				% idioma adicional para hifenização
+	spanish,			% idioma adicional para hifenização
+	brazil,				% o último idioma é o principal do documento
+	]{abntex2}
+
+
+% ---
+% PACOTES
+% ---
+
+% ---
+% Pacotes fundamentais 
+% ---
+\usepackage{cmap}				% Mapear caracteres especiais no PDF
+\usepackage{lmodern}			% Usa a fonte Latin Modern
+\usepackage[T1]{fontenc}		% Selecao de codigos de fonte.
+\usepackage[utf8]{inputenc}		% Codificacao do documento (conversão automática dos acentos)
+\usepackage{indentfirst}		% Indenta o primeiro parágrafo de cada seção.
+\usepackage{color}				% Controle das cores
+\usepackage{graphicx}			% Inclusão de gráficos
+% ---
+
+% ---
+% Pacotes adicionais, usados no anexo do modelo de folha de identificação
+% ---
+\usepackage{multicol}
+\usepackage{multirow}
+% ---
+\usepackage{array}
+% ---
+% Pacotes adicionais, usados apenas no âmbito do Modelo Canônico do abnteX2
+% ---
+\usepackage{lipsum}				% para geração de dummy text
+% ---
+
+% ---
+% Pacotes de citações
+% ---
+\usepackage[brazilian,hyperpageref]{backref}	 % Paginas com as citações na bibl
+\usepackage[alf]{abntex2cite}	% Citações padrão ABNT
+
+% --- 
+% CONFIGURAÇÕES DE PACOTES
+% --- 
+
+% ---
+% Configurações do pacote backref
+% Usado sem a opção hyperpageref de backref
+\renewcommand{\backrefpagesname}{Citado na(s) página(s):~}
+% Texto padrão antes do número das páginas
+\renewcommand{\backref}{}
+% Define os textos da citação
+\renewcommand*{\backrefalt}[4]{
+	\ifcase #1 %
+		Nenhuma citação no texto.%
+	\or
+		Citado na página #2.%
+	\else
+		Citado #1 vezes nas páginas #2.%
+	\fi}%
+% ---
+
+% ---
+% Informações de dados para CAPA e FOLHA DE ROSTO
+% ---
+\titulo{Documento de Especificação de Requisitos de Software: Médida Protetiva Online}
+\autor{Rafael Gonçalves de Oliveira Viana}
+\local{Brasil}
+\data{14 de junho de 2017}
+\instituicao{%
+  Universidade Federal do Mato Grosso do Sul
+  \par
+  Câmpus Coxim
+  \par
+  Sistema de Informação}
+\tipotrabalho{Documento de Especificação de Requisitos de Software}
+% O preambulo deve conter o tipo do trabalho, o objetivo, 
+% o nome da instituição e a área de concentração 
+\preambulo{Levantamento de requisitos, referente ao trabalho I, realizado na matéria de Engenharia Web I, ministrada pelo M. Prof. Marcel Seiji Kay}
+% ---
+
+% ---
+% Configurações de aparência do PDF final
+
+% alterando o aspecto da cor azul
+\definecolor{blue}{RGB}{41,5,195}
+
+% informações do PDF
+\makeatletter
+\hypersetup{
+     	%pagebackref=true,
+		pdftitle={\@title}, 
+		pdfauthor={\@author},
+    	pdfsubject={\imprimirpreambulo},
+	    pdfcreator={LaTeX with abnTeX2},
+		pdfkeywords={abnt}{latex}{abntex}{abntex2}{relatório técnico}, 
+		colorlinks=true,       		% false: boxed links; true: colored links
+    	linkcolor=blue,          	% color of internal links
+    	citecolor=blue,        		% color of links to bibliography
+    	filecolor=magenta,      		% color of file links
+		urlcolor=blue,
+		bookmarksdepth=4
+}
+\makeatother
+% --- 
+
+% --- 
+% Espaçamentos entre linhas e parágrafos 
+% --- 
+
+% O tamanho do parágrafo é dado por:
+\setlength{\parindent}{1.3cm}
+
+% Controle do espaçamento entre um parágrafo e outro:
+\setlength{\parskip}{0.2cm}  % tente também \onelineskip
+
+% ---
+% compila o indice
+% ---
+\makeindex
+% ---
+
+% ----
+% Início do documento
+% ----
+\begin{document}
+
+% Retira espaço extra obsoleto entre as frases.
+\frenchspacing 
+
+% ----------------------------------------------------------
+% ELEMENTOS PRÉ-TEXTUAIS
+% ----------------------------------------------------------
+
+\imprimircapa
+
+\imprimirfolhaderosto*
+
+\tableofcontents
+
+% ----------------------------------------------------------
+% ELEMENTOS TEXTUAIS  (necessário para incluir número nas páginas)
+% ----------------------------------------------------------
+\textual
+
+
+% ----------------------------------------------------------
+% Introdução
+% ----------------------------------------------------------
+
+\chapter{Documento de Requisitos} %% NOVO CAPÍTULO (REPARE QUE ELE AUTOMATICAMENTE JÁ COLOCA O NÚMERO DO CAPÍTULO E JÁ ADICIONA NO SUMÁRIO)
+	\section{Descrição do Sistema}
+		O sistema para Policia Militar consiste em desenvolver um gerenciador de medidas protetivas, expedida pela Justiça. Cada medida tem uma ou mais vitimas e um ou mais Reus, contendo data de emissão, objservação e um valor em dias que representa quantos dias esta em vigor essa medida. Com a medida já em mão deve-se cadastrala colocando esses dados para possível consulta e impressão de uma versão previamente digitalizada.
+	
+		O sistema deve ainda emitir diversos tipos de relatórios e consultas, possibilitando um melhor gerenciamento do policiamento ostencivo economisando recursos para melhores aplicações.
+		
+	\section{Objetivos do documento}
+	
+		Este documento tem o objetivo de definir os requisitos do sistema Medida Protetiva. Nele estão contemplados os requisitos funcionais e não-funcionais, casos de uso e regras de negócio do sistema.
+	
+	\section{Escopo do documento}
+	
+		Este documento define os requisitos funcionais e não funcionais casos de uso e regras de negócios correlatos para o sistema acima citado. Para elucidação de termos específicos utilizados neste documento, faz-se necessária referência ao Glossário.
+
+	\section {Requisitos Funcionais}\label{RF}
+	
+		\subsection{Login (Usuário/Gerenciador)}
+			\begin{enumerate}
+				\item O sistema deve possuir 2 niveis de usuários com diferentes privilégios no sistma sendo eles: gerenciador e usuário. 
+				 \item O gerenciador abastecer o sistema podendo consultar e imprimir relatórios.
+				 \item O usuário apenas consulta e imprimi relatórios.
+			
+			\end{enumerate}
+		 
+		\subsection{Lançamentos das medidas protetivas} \label{RFN1}
+	    	\begin{enumerate} 
+				\item O sistema deve permitir que apenas o usuário gerenciador realize a inclusão, alteração e remoção de medidas protetivas scaneadas em PDF e anexadas, juntamente do cadastro individual contendo os seguintes atributos: nome, endereço, cidade onde mora, estado, país, telefone, documento de identificação (RG ou CPF para brasileiros e passaporte para estrangeiros), data de nascimento e nome dos pais(“se constar na medida”) de ambas as vitimas e acusados, que constam na médida protetiva.\label{teste}
+			
+		   	\end{enumerate}
+   	
+		\subsection{Impressão de relatórios e consultas}
+			\begin{enumerate}
+				\item O sistema deve criar relatórios e gráficos de bairro, cidades, vitimas e acusados com maiores e menores índices de medidas protetivas, cada relatório deve ser individual para cada uma das opções citadas acima, os dois niveis de usuários poderam acessar essa opção.
+				\item O sistema deve permitir a consulta de uma medida protetiva online, pelo nome da vítima, nome do acusado ou pelo cpf dos mesmos, tento acesso ao documento original scaneado e armazenado online.
+			\end{enumerate}
+	
+
+	\section{Requisitos não funcionais}
+	
+		\subsection{Confiabilidade}
+			\begin{enumerate}
+				\item O sistema deve ter capacidade para recuperar os dados perdidos da última operação que realizou em caso de falha.
+				\item O sistema deve fornecer ferramentas para a realização de backups dos arquivos do sistema.
+				\item O sistema deve possuir senhas de acesso e identificação para diferentes tipos de usuários: usuário e gerenciador.
+			\end{enumerate}
+
+	
+		\subsection{Eficiência}
+			\begin{enumerate}
+				\item O sistema deve responder a consultas on-line em menos de 5 segundos.
+				\item O sistema deve iniciar a impressão de relatórios solicitados dentro de no máximo 20 segundos após sua requisição.
+			\end{enumerate}
+		\subsection{Portabilidade}
+			\begin{enumerate}
+				\item O sistema deve ser web e adaptavel para dispositivos moveis.
+			\end{enumerate}
+		\subsection{Disponibilidade}
+			\begin{enumerate}
+				\item O sistema deve estar 24 horas nos 7 dias da semenana online.
+			\end{enumerate}
+%\chapter{Caso de Uso}		
+	\section{Lista de Caso de Uso}
+		Alguns dos casos de uso necessários para a implementação do sistema estão listados nesta seção:
+		\begin{enumerate}
+			\item Cadastro de Atores no sistema.
+			\item Login de Atores no Sistema.
+			\item Cadastro de Médida Protetiva no sistema.
+			\item Consulta de Médida Protetiva no sistema.
+			\item Editar Médida Protetiva do sistema.
+			\item Excluir Médida Protetiva do sistema.
+		\end{enumerate}
+	\section{Mapeamento de caso de uso}
+		 Nesta seção os requisitos funcionais (RF) serão mapeados em casos de uso. Os casos de uso que serão implementados, estarão descritos detalhadamente na seção \ref{RF}.
+
+		\begin{center}
+			\begin{tabular}{ |c|c|c|c| } 
+				\hline
+				Requisitos Funcionais
+				RFNN  & Casos de uso envolvidos
+				UCNN \\
+				\hline
+				~RFN \ref{RFN1} & cell2 \\ 
+				\hline
+				~RFN \ref{RFN1} & cell2 \\ 
+				\hline
+			
+			\end{tabular}
+		\end{center}
+	
+
+		
+	\section{Lista de Regras de negócio}
+		\begin{enumerate}
+			\item O sistema deve ter capacidade para recuperar os dados perdidos da última operação que realizou em caso de falha.
+			\item O sistema deve fornecer facilidades para a realização de backups dos arquivos do sistema.
+			\item O sistema deve possuir senhas de acesso e identificação para diferentes tipos de usuários: usuario e gerenciador
+		\end{enumerate}
+	
+	
+	\section{Mapeamento de regras de negócio}	
+	
+
+
+
+% ----------------------------------------------------------
+% ELEMENTOS PÓS-TEXTUAIS
+% ----------------------------------------------------------
+\postextual
+
+
+% ----------------------------------------------------------
+% Referências bibliográficas
+% ----------------------------------------------------------
+%\bibliography{abntex2-modelo-references} %% REFERENCIA AO ARQUIVO abntex2-modelo-references.bib
+
+% ----------------------------------------------------------
+% Glossário
+% ----------------------------------------------------------
+%
+% Consulte o manual da classe abntex2 para orientações sobre o glossário.
+%
+%\glossary
+
+% ----------------------------------------------------------
+% Apêndices
+% ----------------------------------------------------------
+
+% ---
+% Inicia os apêndices
+% ---
+\begin{apendicesenv}
+
+% Imprime uma página indicando o início dos apêndices
+\partapendices
+
+% ----------------------------------------------------------
+%\chapter{Quisque libero justo}
+% ----------------------------------------------------------
+
+%\lipsum[50]
+
+
+\end{apendicesenv}
+% ---
+
+
+% ----------------------------------------------------------
+% Anexos
+% ----------------------------------------------------------
+
+%---------------------------------------------------------------------
+% INDICE REMISSIVO
+%---------------------------------------------------------------------
+
+\printindex
+
+%---------------------------------------------------------------------
+% Formulário de Identificação (opcional)
+%---------------------------------------------------------------------
+\chapter*[Médida Protetva]{Médida Protetva}
+\addcontentsline{toc}{chapter}{Exemplo Formato Medida Protetva}
+\label{formulado-identificacao}
+
+Exemplo de Medid
+
+\bigskip
+
+\begin{tabular}{|p{9cm}|p{5cm}|} %% EXEMPLO DE TABELA MAIS COMPLEXA
+\hline
+\multicolumn{2}{|c|}{\textbf{\large Médida Protetiva}}\\
+\hline
+\multirow{4}{10cm}[24pt]{Título e subtítulo}& Classificação de segurança\\
+                   & \\
+                   \cline{2-2}
+                   & No.\\
+                   & \\
+				
+\hline
+Tipo de relatório & Data\\
+\hline
+Título do projeto/programa/plano & No.\\
+\hline
+\multicolumn{2}{|l|}{Autor(es)} \\
+\hline
+\multicolumn{2}{|l|}{Instituição executora e endereço completo} \\
+\hline
+\multicolumn{2}{|l|}{Instituição patrocinadora e endereço completo} \\
+\hline
+\multicolumn{2}{|l|}{Resumo}\\[3cm]
+\hline
+\multicolumn{2}{|l|}{Palavras-chave/descritores}\\
+\hline
+\multicolumn{2}{|l|}{
+Edição \hfill No. de páginas \hfill No. do volume \hfill Nº de classificação \phantom{XXXX}} \\
+\hline
+\multicolumn{2}{|l|}{
+ISSN \hfill \hfill Tiragem \hfill Preço \phantom{XXXXXXXX}} \\
+\hline
+\multicolumn{2}{|l|}{Distribuidor} \\
+\hline
+\multicolumn{2}{|l|}{Observações/notas}\\[3cm]
+\hline
+\end{tabular}
+
+\end{document}
