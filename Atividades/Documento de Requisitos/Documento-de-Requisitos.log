@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.6.3)  14 JUN 2017 00:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.6.3)  14 JUN 2017 03:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -980,31 +980,37 @@ Package graphics Info: Driver file: pdftex.def on input line 99.
 \Gin@req@height=\dimen157
 \Gin@req@width=\dimen158
 )
+(/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count172
+\float@exts=\toks28
+\float@box=\box30
+\@float@everytoks=\toks29
+\@floatcapt=\box31
+)
 (/usr/share/texlive/texmf-dist/tex/latex/tools/multicol.sty
 Package: multicol 2016/04/07 v1.8p multicolumn formatting (FMi)
-\c@tracingmulticols=\count172
-\mult@box=\box30
+\c@tracingmulticols=\count173
+\mult@box=\box32
 \multicol@leftmargin=\dimen159
-\c@unbalance=\count173
-\c@collectmore=\count174
-\doublecol@number=\count175
-\multicoltolerance=\count176
-\multicolpretolerance=\count177
+\c@unbalance=\count174
+\c@collectmore=\count175
+\doublecol@number=\count176
+\multicoltolerance=\count177
+\multicolpretolerance=\count178
 \full@width=\dimen160
 \page@free=\dimen161
 \premulticols=\dimen162
 \postmulticols=\dimen163
 \multicolsep=\skip265
 \multicolbaselineskip=\skip266
-\partial@page=\box31
-\last@line=\box32
+\partial@page=\box33
+\last@line=\box34
 \maxbalancingoverflow=\dimen164
-\mult@rightbox=\box33
-\mult@grightbox=\box34
-\mult@gfirstbox=\box35
-\mult@firstbox=\box36
-\@tempa=\box37
-\@tempa=\box38
+\mult@rightbox=\box35
+\mult@grightbox=\box36
+\mult@gfirstbox=\box37
+\mult@firstbox=\box38
 \@tempa=\box39
 \@tempa=\box40
 \@tempa=\box41
@@ -1020,25 +1026,27 @@ Package: multicol 2016/04/07 v1.8p multicolumn formatting (FMi)
 \@tempa=\box51
 \@tempa=\box52
 \@tempa=\box53
-\c@columnbadness=\count178
-\c@finalcolumnbadness=\count179
+\@tempa=\box54
+\@tempa=\box55
+\c@columnbadness=\count179
+\c@finalcolumnbadness=\count180
 \last@try=\dimen165
 \multicolovershoot=\dimen166
 \multicolundershoot=\dimen167
-\mult@nat@firstbox=\box54
-\colbreak@box=\box55
-\mc@col@check@num=\count180
+\mult@nat@firstbox=\box56
+\colbreak@box=\box57
+\mc@col@check@num=\count181
 )
 (/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty
 Package: multirow 2016/11/25 v2.2 Span multiple rows of a table
 \multirow@colwidth=\skip267
-\multirow@cntb=\count181
+\multirow@cntb=\count182
 \multirow@dima=\skip268
 \bigstrutjot=\dimen168
 )
 (/usr/share/texlive/texmf-dist/tex/latex/lipsum/lipsum.sty
 Package: lipsum 2014/07/27 v1.3 150 paragraphs of Lorem Ipsum dummy text
-\c@lips@count=\count182
+\c@lips@count=\count183
 )
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/backref.sty
 Package: backref 2016/05/21 v1.39 Bibliographical back referencing
@@ -1049,8 +1057,8 @@ Package: abntex2cite 2016/02/26 v-1.9.6 abnTeX2
 (/usr/share/texlive/texmf-dist/tex/latex/abntex2/abntex2abrev.sty)
 \minimumbiblabelwidth=\skip269
 \ABCIauxlen=\skip270
-\c@ABCIaux=\count183
-\c@ABCImax=\count184
+\c@ABCIaux=\count184
+\c@ABCImax=\count185
 
 (/usr/share/texlive/texmf-dist/tex/latex/relsize/relsize.sty
 Package: relsize 2013/03/29 ver 4.1
@@ -1058,10 +1066,10 @@ Package: relsize 2013/03/29 ver 4.1
 \biblabelsep=\skip271
 LaTeX Info: Redefining \newblock on input line 591.
 LaTeX Info: Redefining \cite on input line 618.
-\ABCItoken=\toks28
+\ABCItoken=\toks30
 )
-Package color Info: Redefining color blue on input line 134.
-Package hyperref Info: Option `colorlinks' set `true' on input line 151.
+Package color Info: Redefining color blue on input line 100.
+Package hyperref Info: Option `colorlinks' set `true' on input line 117.
 \Documento-de-Requisitos@idxfile=\write4
 \openout4 = `Documento-de-Requisitos.idx'.
 
@@ -1070,26 +1078,26 @@ Writing index file Documento-de-Requisitos.idx
 (./Documento-de-Requisitos.aux)
 \openout1 = `Documento-de-Requisitos.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 174.
-LaTeX Font Info:    ... okay on input line 174.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 174.
-LaTeX Font Info:    ... okay on input line 174.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 174.
-LaTeX Font Info:    ... okay on input line 174.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 174.
-LaTeX Font Info:    ... okay on input line 174.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 174.
-LaTeX Font Info:    ... okay on input line 174.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 174.
-LaTeX Font Info:    ... okay on input line 174.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 174.
-LaTeX Font Info:    ... okay on input line 174.
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 174.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 140.
+LaTeX Font Info:    ... okay on input line 140.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 140.
+LaTeX Font Info:    ... okay on input line 140.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 140.
+LaTeX Font Info:    ... okay on input line 140.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 140.
+LaTeX Font Info:    ... okay on input line 140.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 140.
+LaTeX Font Info:    ... okay on input line 140.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 140.
+LaTeX Font Info:    ... okay on input line 140.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 140.
+LaTeX Font Info:    ... okay on input line 140.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 140.
  (/usr/share/texmf/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-\AtBeginShipoutBox=\box56
-Package hyperref Info: Link coloring ON on input line 174.
+\AtBeginShipoutBox=\box58
+Package hyperref Info: Link coloring ON on input line 140.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -1097,32 +1105,32 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count185
+\c@section@level=\count186
 )
 Redoing nameref's sectioning
 Redoing nameref's label
-LaTeX Info: Redefining \nameref on input line 174.
-LaTeX Info: Redefining \ref on input line 174.
-LaTeX Info: Redefining \pageref on input line 174.
-LaTeX Info: Redefining \nameref on input line 174.
-LaTeX Info: Redefining \degres on input line 174.
-LaTeX Info: Redefining \dots on input line 174.
-LaTeX Info: Redefining \up on input line 174.
-\myptabbox=\box57
+LaTeX Info: Redefining \nameref on input line 140.
+LaTeX Info: Redefining \ref on input line 140.
+LaTeX Info: Redefining \pageref on input line 140.
+LaTeX Info: Redefining \nameref on input line 140.
+LaTeX Info: Redefining \degres on input line 140.
+LaTeX Info: Redefining \dots on input line 140.
+LaTeX Info: Redefining \up on input line 140.
+\myptabbox=\box59
 \myptabboxwidth=\skip272
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count186
+\scratchcounter=\count187
 \scratchdimen=\dimen169
-\scratchbox=\box58
-\nofMPsegments=\count187
-\nofMParguments=\count188
-\everyMPshowfont=\toks29
-\MPscratchCnt=\count189
+\scratchbox=\box60
+\nofMPsegments=\count188
+\nofMParguments=\count189
+\everyMPshowfont=\toks31
+\MPscratchCnt=\count190
 \MPscratchDim=\dimen170
-\MPnumerator=\count190
-\makeMPintoPDFobject=\count191
-\everyMPtoPDFconversion=\toks30
+\MPnumerator=\count191
+\makeMPintoPDFobject=\count192
+\everyMPtoPDFconversion=\toks32
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -1140,7 +1148,7 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-LaTeX Font Info:    Try loading font information for T1+lmss on input line 183.
+LaTeX Font Info:    Try loading font information for T1+lmss on input line 149.
 
 
 (/usr/share/texmf/tex/latex/lm/t1lmss.fd
@@ -1148,92 +1156,193 @@ File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ) [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 186.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 152.
 
  (/usr/share/texmf/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )<<ot1.cmap>>
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 186.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 152.
 
 
 (/usr/share/texmf/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )<<oml.cmap>>
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 186
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 152
 .
 
 (/usr/share/texmf/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )<<oms.cmap>>
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 186
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 152
 .
 
 (/usr/share/texmf/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 186.
+(Font)              <12> on input line 152.
 <<omx.cmap>>
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 186.
+(Font)              <8> on input line 152.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 186.
+(Font)              <6> on input line 152.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.186 
+l.152 
        [1
 
 
 
 ] (./Documento-de-Requisitos.toc
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <14.4> on input line 27.
+(Font)              <14.4> on input line 31.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 27.
+(Font)              <10> on input line 31.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 27.
+(Font)              <7> on input line 31.
 ) [2] [3
 
-] [4] [5] [6]
+] [4]
+<CU01.png, id=107, 722.7pt x 381.425pt>
+File: CU01.png Graphic file (type png)
+ <use CU01.png>
+Package pdftex.def Info: CU01.png used on input line 260.
+(pdftex.def)             Requested size: 354.0pt x 186.83586pt.
+
+<Cadastro.png, id=109, 491.8375pt x 321.2pt>
+File: Cadastro.png Graphic file (type png)
+ <use Cadastro.png>
+Package pdftex.def Info: Cadastro.png used on input line 265.
+(pdftex.def)             Requested size: 354.0pt x 231.1903pt.
+ [5pdfTeX warning (ext4): destination with the same identifier (name{table.1.1}
+) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.267 		\subsection
+                   {Caso de uso login} <./CU01.png>]
+<CU02.png, id=123, 722.7pt x 381.425pt>
+File: CU02.png Graphic file (type png)
+ <use CU02.png>
+Package pdftex.def Info: CU02.png used on input line 271.
+(pdftex.def)             Requested size: 354.0pt x 186.83586pt.
+
+<Login.png, id=124, 491.8375pt x 321.2pt>
+File: Login.png Graphic file (type png)
+ <use Login.png>
+Package pdftex.def Info: Login.png used on input line 276.
+(pdftex.def)             Requested size: 354.0pt x 231.1903pt.
+ [6pdfTeX warning (ext4): destination with the same identifier (name{figure.1.1
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.278 		\subsection
+                   {Caso de uso gerenciador}pdfTeX warning (ext4): destination 
+with the same identifier (name{table.1.2}) has been already used, duplicate ign
+ored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.278 		\subsection
+                   {Caso de uso gerenciador} <./Cadastro.png> <./CU02.png>]
+<CU03.png, id=134, 722.7pt x 381.425pt>
+File: CU03.png Graphic file (type png)
+ <use CU03.png>
+Package pdftex.def Info: CU03.png used on input line 282.
+(pdftex.def)             Requested size: 354.0pt x 186.83586pt.
+
+<Gerenciamento.png, id=135, 491.8375pt x 321.2pt>
+File: Gerenciamento.png Graphic file (type png)
+ <use Gerenciamento.png>
+Package pdftex.def Info: Gerenciamento.png used on input line 287.
+(pdftex.def)             Requested size: 354.0pt x 231.1903pt.
+
+[7pdfTeX warning (ext4): destination with the same identifier (name{figure.1.2}
+) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.289 		\subsection
+                   {Caso de uso consultas e relatórios}pdfTeX warning (ext4): 
+destination with the same identifier (name{table.1.3}) has been already used, d
+uplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.289 		\subsection
+                   {Caso de uso consultas e relatórios} <./Login.png> <./CU03.
+png>] <CU04.png, id=145, 722.7pt x 451.6875pt>
+File: CU04.png Graphic file (type png)
+ <use CU04.png>
+Package pdftex.def Info: CU04.png used on input line 293.
+(pdftex.def)             Requested size: 354.0pt x 221.25299pt.
+
+<Consulta-Relatorio.png, id=146, 491.8375pt x 321.2pt>
+File: Consulta-Relatorio.png Graphic file (type png)
+
+<use Consulta-Relatorio.png>
+Package pdftex.def Info: Consulta-Relatorio.png used on input line 298.
+(pdftex.def)             Requested size: 354.0pt x 231.1903pt.
+ [8pdfTeX warning (ext4): destination with the same identifier (name{figure.1.3
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.300 
+      pdfTeX warning (ext4): destination with the same identifier (name{table.1
+.4}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.300 
+       <./Gerenciamento.png> <./CU04.png>] [9pdfTeX warning (ext4): destination
+ with the same identifier (name{figure.1.4}) has been already used, duplicate i
+gnored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.365 
+       <./Consulta-Relatorio.png>]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\uppercase' on input line 333.
+(hyperref)                removing `\uppercase' on input line 365.
 
-[7
+[10
 
 
 ]
 No file Documento-de-Requisitos.ind.
 
-Overfull \hbox (28.45276pt too wide) in paragraph at lines 370--370
+Overfull \hbox (28.45276pt too wide) in paragraph at lines 402--402
 []|[]| 
  []
 
 
-Overfull \hbox (5.52722pt too wide) in paragraph at lines 366--402
+Overfull \hbox (5.52722pt too wide) in paragraph at lines 398--434
 [][] 
  []
 
-[8
+[11
 
 ]
 \tf@toc=\write5
 \openout5 = `Documento-de-Requisitos.toc'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 403.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 403.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 435.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 435.
  (./Documento-de-Requisitos.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 403.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 403.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 403.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 435.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 435.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 435.
  ) 
 Here is how much of TeX's memory you used:
- 12590 strings out of 493013
- 181179 string characters out of 6135683
- 407736 words of memory out of 5000000
- 15861 multiletter control sequences out of 15000+600000
+ 12718 strings out of 493013
+ 182789 string characters out of 6135683
+ 409842 words of memory out of 5000000
+ 15962 multiletter control sequences out of 15000+600000
  71298 words of font info for 51 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  39i,12n,36p,570b,509s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1243,10 +1352,10 @@ are/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/
 lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/texm
 f/fonts/type1/public/lm/lmss12.pfb></usr/share/texmf/fonts/type1/public/lm/lmss
 17.pfb></usr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb>
-Output written on Documento-de-Requisitos.pdf (9 pages, 197962 bytes).
+Output written on Documento-de-Requisitos.pdf (12 pages, 545613 bytes).
 PDF statistics:
- 229 PDF objects out of 1000 (max. 8388607)
- 202 compressed objects within 3 object streams
- 54 named destinations out of 1000 (max. 500000)
- 189 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 306 PDF objects out of 1000 (max. 8388607)
+ 260 compressed objects within 3 object streams
+ 69 named destinations out of 1000 (max. 500000)
+ 261 words of extra memory for PDF output out of 10000 (max. 10000000)
 
