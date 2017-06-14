@@ -41,6 +41,23 @@
 \usepackage{multicol}
 \usepackage{multirow}
 % ---
+\usepackage{glossaries}
+
+\makeglossaries
+
+\newglossaryentry{latex}
+{
+	name=latex,
+	description={Is a mark up language specially suited 
+		for scientific documents}
+}
+
+\newglossaryentry{maths}
+{
+	name=mathematics,
+	description={Mathematics is what mathematicians do}
+}
+
 % ---
 % Pacotes adicionais, usados apenas no âmbito do Modelo Canônico do abnteX2
 % ---
@@ -302,9 +319,8 @@
 		
 	\section{Lista de Regras de negócio}
 		\begin{enumerate}
-			\item O sistema deve ter capacidade para recuperar os dados perdidos da última operação que realizou em caso de falha.
-			\item O sistema deve fornecer facilidades para a realização de backups dos arquivos do sistema.
-			\item O sistema deve possuir senhas de acesso e identificação para diferentes tipos de usuários: usuario e gerenciador
+			\item Os gerenciadores só serão aceitos se forem da P2(Setor responsável pela medida protetiva na PM-MS).
+			\item As atualizações referente a medida protetiva só serão realizadas das 08:00 às 13:30 de Segunda à Sexta feira.
 		\end{enumerate}
 	
 	
@@ -325,7 +341,11 @@
 				
 			\end{tabular}
 		\end{center}
+		\subsection{Setor resposável}
 		
+		\subsection{Recuperar dados}
+
+			
 	
 	
 
@@ -341,14 +361,20 @@
 % ----------------------------------------------------------
 % Referências bibliográficas
 % ----------------------------------------------------------
-%\bibliography{abntex2-modelo-references} %% REFERENCIA AO ARQUIVO abntex2-modelo-references.bib
+\bibliography{abntex2-modelo-references} %% REFERENCIA AO ARQUIVO abntex2-modelo-references.bib
 
 % ----------------------------------------------------------
 % Glossário
 % ----------------------------------------------------------
 %
 % Consulte o manual da classe abntex2 para orientações sobre o glossário.
-%
+
+The \Gls{latex} typesetting markup language is specially suitable 
+for documents that include \gls{maths}. 
+
+\clearpage
+
+\printglossaries
 %\glossary
 
 % ----------------------------------------------------------
@@ -391,7 +417,7 @@
 \addcontentsline{toc}{chapter}{Exemplo Formato Medida Protetva}
 \label{formulado-identificacao}
 
-Exemplo de Medid
+Exemplo de medida protetiva
 
 \bigskip
 
@@ -406,30 +432,17 @@ Exemplo de Medid
                    & \\
 				
 \hline
-Tipo de relatório & Data\\
-\hline
-Título do projeto/programa/plano & No.\\
+Local de Expedição & Data\\
+
 \hline
 \multicolumn{2}{|l|}{Autor(es)} \\
+
 \hline
-\multicolumn{2}{|l|}{Instituição executora e endereço completo} \\
-\hline
-\multicolumn{2}{|l|}{Instituição patrocinadora e endereço completo} \\
+\multicolumn{2}{|l|}{Vítimas} \\
 \hline
 \multicolumn{2}{|l|}{Resumo}\\[3cm]
 \hline
-\multicolumn{2}{|l|}{Palavras-chave/descritores}\\
-\hline
-\multicolumn{2}{|l|}{
-Edição \hfill No. de páginas \hfill No. do volume \hfill Nº de classificação \phantom{XXXX}} \\
-\hline
-\multicolumn{2}{|l|}{
-ISSN \hfill \hfill Tiragem \hfill Preço \phantom{XXXXXXXX}} \\
-\hline
-\multicolumn{2}{|l|}{Distribuidor} \\
-\hline
-\multicolumn{2}{|l|}{Observações/notas}\\[3cm]
-\hline
+
 \end{tabular}
 
 \end{document}
