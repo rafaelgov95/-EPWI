@@ -25,7 +25,8 @@
 \contentsline {section}{\numberline {1.8}Lista de Regras de neg\IeC {\'o}cio}{9}{section.1.8}
 \contentsline {section}{\numberline {1.9}Mapeamento de regras de neg\IeC {\'o}cio}{9}{section.1.9}
 \contentsline {subsection}{\numberline {1.9.1}Setor respos\IeC {\'a}vel}{9}{subsection.1.9.1}
-\contentsline {subsection}{\numberline {1.9.2}Recuperar dados}{9}{subsection.1.9.2}
+\contentsline {subsection}{\numberline {1.9.2}Abastecimento dos dados}{10}{subsection.1.9.2}
+\contentsline {section}{\numberline {1.10}Gloss\IeC {\'a}rio}{10}{section.1.10}
 \vspace {\cftbeforechapterskip }
 \renewcommand *{\cftappendixname }{AP\^ENDICE \space }
 \setlength {\cftpartindent }{\cftlastnumwidth } \setlength {\cftpartnumwidth }{2em}

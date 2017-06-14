@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.6.3)  14 JUN 2017 16:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.6.3)  14 JUN 2017 16:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**Documento-de-Requisitos.tex
-(./Documento-de-Requisitos.tex
+**abntex2-modelo-relatorio-tecnico.tex
+(./abntex2-modelo-relatorio-tecnico.tex
 LaTeX2e <2017/01/01> patch level 3
 Babel <3.9r> and hyphenation patterns for 83 language(s) loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/abntex2/abntex2.cls
@@ -1068,36 +1068,37 @@ LaTeX Info: Redefining \newblock on input line 591.
 LaTeX Info: Redefining \cite on input line 618.
 \ABCItoken=\toks30
 )
-Package color Info: Redefining color blue on input line 103.
-Package hyperref Info: Option `colorlinks' set `true' on input line 120.
-\Documento-de-Requisitos@idxfile=\write4
-\openout4 = `Documento-de-Requisitos.idx'.
+Package color Info: Redefining color blue on input line 139.
+Package hyperref Info: Option `colorlinks' set `true' on input line 156.
+\abntex2-modelo-relatorio-tecnico@idxfile=\write4
+\openout4 = `abntex2-modelo-relatorio-tecnico.idx'.
 
 
-Writing index file Documento-de-Requisitos.idx 
-(./Documento-de-Requisitos.aux)
-\openout1 = `Documento-de-Requisitos.aux'.
+Writing index file abntex2-modelo-relatorio-tecnico.idx 
+(./abntex2-modelo-relatorio-tecnico.aux)
+\openout1 = `abntex2-modelo-relatorio-tecnico.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 143.
-LaTeX Font Info:    ... okay on input line 143.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 143.
-LaTeX Font Info:    ... okay on input line 143.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 143.
-LaTeX Font Info:    ... okay on input line 143.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 143.
-LaTeX Font Info:    ... okay on input line 143.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 143.
-LaTeX Font Info:    ... okay on input line 143.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 143.
-LaTeX Font Info:    ... okay on input line 143.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 143.
-LaTeX Font Info:    ... okay on input line 143.
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 143.
- (/usr/share/texmf/tex/latex/lm/t1lmr.fd
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 179.
+LaTeX Font Info:    ... okay on input line 179.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 179.
+LaTeX Font Info:    ... okay on input line 179.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 179.
+LaTeX Font Info:    ... okay on input line 179.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 179.
+LaTeX Font Info:    ... okay on input line 179.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 179.
+LaTeX Font Info:    ... okay on input line 179.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 179.
+LaTeX Font Info:    ... okay on input line 179.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 179.
+LaTeX Font Info:    ... okay on input line 179.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 179.
+
+(/usr/share/texmf/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 \AtBeginShipoutBox=\box58
-Package hyperref Info: Link coloring ON on input line 143.
+Package hyperref Info: Link coloring ON on input line 179.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -1109,13 +1110,13 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 Redoing nameref's sectioning
 Redoing nameref's label
-LaTeX Info: Redefining \nameref on input line 143.
-LaTeX Info: Redefining \ref on input line 143.
-LaTeX Info: Redefining \pageref on input line 143.
-LaTeX Info: Redefining \nameref on input line 143.
-LaTeX Info: Redefining \degres on input line 143.
-LaTeX Info: Redefining \dots on input line 143.
-LaTeX Info: Redefining \up on input line 143.
+LaTeX Info: Redefining \nameref on input line 179.
+LaTeX Info: Redefining \ref on input line 179.
+LaTeX Info: Redefining \pageref on input line 179.
+LaTeX Info: Redefining \nameref on input line 179.
+LaTeX Info: Redefining \degres on input line 179.
+LaTeX Info: Redefining \dots on input line 179.
+LaTeX Info: Redefining \up on input line 179.
 \myptabbox=\box59
 \myptabboxwidth=\skip272
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
@@ -1148,215 +1149,267 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-LaTeX Font Info:    Try loading font information for T1+lmss on input line 151.
+LaTeX Font Info:    Try loading font information for T1+lmss on input line 192.
 
 
 (/usr/share/texmf/tex/latex/lm/t1lmss.fd
 File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ) [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 154.
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./abntex2-modelo-relatori
+o-tecnico.toc
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 4.
 
- (/usr/share/texmf/tex/latex/lm/ot1lmr.fd
+(/usr/share/texmf/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )<<ot1.cmap>>
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 154.
-
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 4.
 
 (/usr/share/texmf/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )<<oml.cmap>>
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 154
-.
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 4.
 
 (/usr/share/texmf/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )<<oms.cmap>>
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 154
-.
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 4.
 
 (/usr/share/texmf/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 154.
+(Font)              <12> on input line 4.
 <<omx.cmap>>
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 154.
+(Font)              <8> on input line 4.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 154.
+(Font)              <6> on input line 4.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <14.4> on input line 35.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 35.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 35.
+
+Overfull \hbox (6.8837pt too wide) in paragraph at lines 43--43
+ [][] [][][]\T1/lmss/bx/n/12 NULLAM ELE-MEN-TUM URNA VEL IM-PER-DIET 
+ []
+
+
+Overfull \hbox (1.3121pt too wide) in paragraph at lines 43--43
+ \T1/lmss/bx/n/12 SO-DA-LES ELIT IP-SUM PHA-RE-TRA LI-GULA AC 
+ []
+
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.154 
-       [1
+l.56 ...iculus mus}}{18}{appendix.anexochapback.2}
+                                                   [1
 
 
 
-] (./Documento-de-Requisitos.toc
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <14.4> on input line 34.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 34.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 34.
-) [2] [3
+]) [2]
+(./abntex2-modelo-relatorio-tecnico.toc
+Overfull \hbox (6.8837pt too wide) in paragraph at lines 43--43
+ [][] [][][]\T1/lmss/bx/n/12 NULLAM ELE-MEN-TUM URNA VEL IM-PER-DIET 
+ []
 
-] [4]
-<CU01.png, id=113, 722.7pt x 381.425pt>
+
+Overfull \hbox (1.3121pt too wide) in paragraph at lines 43--43
+ \T1/lmss/bx/n/12 SO-DA-LES ELIT IP-SUM PHA-RE-TRA LI-GULA AC 
+ []
+
+[3]) (./abntex2-modelo-relatorio-tecnico.lof) [4] [5
+
+
+] [6]
+<CU01.png, id=184, 722.7pt x 381.425pt>
 File: CU01.png Graphic file (type png)
  <use CU01.png>
-Package pdftex.def Info: CU01.png used on input line 262.
+Package pdftex.def Info: CU01.png used on input line 325.
 (pdftex.def)             Requested size: 354.0pt x 186.83586pt.
 
-<Cadastro.png, id=115, 491.8375pt x 321.2pt>
+<Cadastro.png, id=186, 491.8375pt x 321.2pt>
 File: Cadastro.png Graphic file (type png)
  <use Cadastro.png>
-Package pdftex.def Info: Cadastro.png used on input line 267.
+Package pdftex.def Info: Cadastro.png used on input line 330.
 (pdftex.def)             Requested size: 354.0pt x 231.1903pt.
- [5pdfTeX warning (ext4): destination with the same identifier (name{table.1.1}
+ [7pdfTeX warning (ext4): destination with the same identifier (name{table.1.1}
 ) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.269 		\subsection
-                   {Caso de uso login}\label{CU:02} <./CU01.png>]
-<CU02.png, id=129, 722.7pt x 381.425pt>
+l.332 \subsection
+                 {Caso de uso login}\label{CU:02} <./CU01.png>]
+<CU02.png, id=200, 722.7pt x 381.425pt>
 File: CU02.png Graphic file (type png)
  <use CU02.png>
-Package pdftex.def Info: CU02.png used on input line 273.
+Package pdftex.def Info: CU02.png used on input line 336.
 (pdftex.def)             Requested size: 354.0pt x 186.83586pt.
 
-<Login.png, id=130, 491.8375pt x 321.2pt>
+<Login.png, id=201, 491.8375pt x 321.2pt>
 File: Login.png Graphic file (type png)
  <use Login.png>
-Package pdftex.def Info: Login.png used on input line 278.
+Package pdftex.def Info: Login.png used on input line 341.
 (pdftex.def)             Requested size: 354.0pt x 231.1903pt.
- [6pdfTeX warning (ext4): destination with the same identifier (name{figure.1.1
+ [8pdfTeX warning (ext4): destination with the same identifier (name{figure.1.1
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.280 		\subsection
-                   {Caso de uso gerenciador} \label{CU:03}pdfTeX warning (ext4)
-: destination with the same identifier (name{table.1.2}) has been already used,
- duplicate ignored
+l.343 \subsection
+                 {Caso de uso gerenciador} \label{CU:03}pdfTeX warning (ext4): 
+destination with the same identifier (name{table.1.2}) has been already used, d
+uplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.280 		\subsection
-                   {Caso de uso gerenciador} \label{CU:03} <./Cadastro.png> <./
-CU02.png>] <CU03.png, id=141, 722.7pt x 381.425pt>
+l.343 \subsection
+                 {Caso de uso gerenciador} \label{CU:03} <./Cadastro.png> <./CU
+02.png>] <CU03.png, id=209, 722.7pt x 381.425pt>
 File: CU03.png Graphic file (type png)
  <use CU03.png>
-Package pdftex.def Info: CU03.png used on input line 284.
+Package pdftex.def Info: CU03.png used on input line 347.
 (pdftex.def)             Requested size: 354.0pt x 186.83586pt.
 
-<Gerenciamento.png, id=142, 491.8375pt x 321.2pt>
+<Gerenciamento.png, id=210, 491.8375pt x 321.2pt>
 File: Gerenciamento.png Graphic file (type png)
  <use Gerenciamento.png>
-Package pdftex.def Info: Gerenciamento.png used on input line 289.
+Package pdftex.def Info: Gerenciamento.png used on input line 352.
 (pdftex.def)             Requested size: 354.0pt x 231.1903pt.
 
-[7pdfTeX warning (ext4): destination with the same identifier (name{figure.1.2}
+[9pdfTeX warning (ext4): destination with the same identifier (name{figure.1.2}
 ) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.291 		\subsection
-                   {Caso de uso consultas e relatórios}\label{CU:04}pdfTeX war
-ning (ext4): destination with the same identifier (name{table.1.3}) has been al
-ready used, duplicate ignored
+l.354 \subsection
+                 {Caso de uso consultas e relatórios}\label{CU:04}pdfTeX warni
+ng (ext4): destination with the same identifier (name{table.1.3}) has been alre
+ady used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.291 		\subsection
-                   {Caso de uso consultas e relatórios}\label{CU:04} <./Login.
-png> <./CU03.png>] <CU04.png, id=151, 722.7pt x 451.6875pt>
+l.354 \subsection
+                 {Caso de uso consultas e relatórios}\label{CU:04} <./Login.pn
+g> <./CU03.png>] <CU04.png, id=218, 722.7pt x 451.6875pt>
 File: CU04.png Graphic file (type png)
  <use CU04.png>
-Package pdftex.def Info: CU04.png used on input line 295.
+Package pdftex.def Info: CU04.png used on input line 358.
 (pdftex.def)             Requested size: 354.0pt x 221.25299pt.
 
-<Consulta-Relatorio.png, id=152, 491.8375pt x 321.2pt>
+<Consulta-Relatorio.png, id=219, 491.8375pt x 321.2pt>
 File: Consulta-Relatorio.png Graphic file (type png)
 
 <use Consulta-Relatorio.png>
-Package pdftex.def Info: Consulta-Relatorio.png used on input line 300.
+Package pdftex.def Info: Consulta-Relatorio.png used on input line 363.
 (pdftex.def)             Requested size: 354.0pt x 231.1903pt.
- [8pdfTeX warning (ext4): destination with the same identifier (name{figure.1.3
-}) has been already used, duplicate ignored
+ [10pdfTeX warning (ext4): destination with the same identifier (name{figure.1.
+3}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.302 
+l.365 
       pdfTeX warning (ext4): destination with the same identifier (name{table.1
 .4}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.302 
-       <./Gerenciamento.png> <./CU04.png>] [9pdfTeX warning (ext4): destination
- with the same identifier (name{figure.1.4}) has been already used, duplicate i
-gnored
+l.365 
+       <./Gerenciamento.png> <./CU04.png>] [11pdfTeX warning (ext4): destinatio
+n with the same identifier (name{figure.1.4}) has been already used, duplicate 
+ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.354 			\end{center}
-                      <./Consulta-Relatorio.png>] [10]
+l.417 \end{center}
+                   <./Consulta-Relatorio.png>]
+No file abntex2-modelo-relatorio-tecnico.bbl.
+Runaway argument?
+! Paragraph ended before \@@glossary was complete.
+<to be read again> 
+                   \par 
+l.439 
+      
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+[12]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\uppercase' on input line 405.
+(hyperref)                removing `\uppercase' on input line 451.
 
-[11
+[13
 
 
+] [14
+
+] [15
 
 ]
-No file Documento-de-Requisitos.ind.
 
-Overfull \hbox (28.45276pt too wide) in paragraph at lines 442--442
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\uppercase' on input line 479.
+
+[16
+
+
+] [17
+
+] [18
+
+]
+No file abntex2-modelo-relatorio-tecnico.ind.
+[19
+
+]
+Overfull \hbox (28.45276pt too wide) in paragraph at lines 523--523
 []|[]| 
  []
 
 
-Overfull \hbox (5.52722pt too wide) in paragraph at lines 438--461
+Overfull \hbox (5.52722pt too wide) in paragraph at lines 519--555
 [][] 
  []
 
-[12
+[20
 
 ]
 \tf@toc=\write5
-\openout5 = `Documento-de-Requisitos.toc'.
+\openout5 = `abntex2-modelo-relatorio-tecnico.toc'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 462.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 462.
- (./Documento-de-Requisitos.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 462.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 462.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 462.
+\tf@lof=\write6
+\openout6 = `abntex2-modelo-relatorio-tecnico.lof'.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 556.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 556.
+ (./abntex2-modelo-relatorio-tecnico.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 556.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 556.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 556.
  ) 
 Here is how much of TeX's memory you used:
- 12730 strings out of 493013
- 182891 string characters out of 6135683
- 411623 words of memory out of 5000000
- 15973 multiletter control sequences out of 15000+600000
- 68306 words of font info for 50 fonts, out of 8000000 for 9000
+ 12759 strings out of 493013
+ 183397 string characters out of 6135683
+ 412384 words of memory out of 5000000
+ 15981 multiletter control sequences out of 15000+600000
+ 71298 words of font info for 51 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 39i,12n,36p,570b,509s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 39i,12n,36p,576b,561s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}</usr/share/texmf/fonts/type1/
 public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/sh
 are/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/
-lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmss12.pfb></usr/share/te
-xmf/fonts/type1/public/lm/lmss17.pfb></usr/share/texmf/fonts/type1/public/lm/lm
-ssbx10.pfb>
-Output written on Documento-de-Requisitos.pdf (13 pages, 550995 bytes).
+lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/texm
+f/fonts/type1/public/lm/lmss12.pfb></usr/share/texmf/fonts/type1/public/lm/lmss
+17.pfb></usr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb>
+Output written on abntex2-modelo-relatorio-tecnico.pdf (21 pages, 555547 bytes)
+.
 PDF statistics:
- 317 PDF objects out of 1000 (max. 8388607)
- 271 compressed objects within 3 object streams
- 72 named destinations out of 1000 (max. 500000)
- 285 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 430 PDF objects out of 1000 (max. 8388607)
+ 374 compressed objects within 4 object streams
+ 85 named destinations out of 1000 (max. 500000)
+ 325 words of extra memory for PDF output out of 10000 (max. 10000000)
 

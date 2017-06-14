@@ -41,22 +41,8 @@
 \usepackage{multicol}
 \usepackage{multirow}
 % ---
-\usepackage{glossaries}
 
-\makeglossaries
 
-\newglossaryentry{latex}
-{
-	name=latex,
-	description={Is a mark up language specially suited 
-		for scientific documents}
-}
-
-\newglossaryentry{maths}
-{
-	name=mathematics,
-	description={Mathematics is what mathematicians do}
-}
 
 % ---
 % Pacotes adicionais, usados apenas no âmbito do Modelo Canônico do abnteX2
@@ -155,7 +141,6 @@
 % Início do documento
 % ----
 \begin{document}
-
 % Retira espaço extra obsoleto entre as frases.
 \frenchspacing 
 
@@ -220,7 +205,7 @@
 
 	\section{Requisitos não funcionais}
 	
-		\subsection{Confiabilidade}
+		\subsection{Confiabilidade} \label{sec:RFN01}
 			\begin{enumerate}
 				\item O sistema deve ter capacidade para recuperar os dados perdidos da última operação que realizou em caso de falha.
 				\item O sistema deve fornecer ferramentas para a realização de backups dos arquivos do sistema.
@@ -228,16 +213,16 @@
 			\end{enumerate}
 
 	
-		\subsection{Eficiência}
+		\subsection{Eficiência}\label{sec:RFN02}
 			\begin{enumerate}
 				\item O sistema deve responder a consultas on-line em menos de 5 segundos.
 				\item O sistema deve iniciar a impressão de relatórios solicitados dentro de no máximo 20 segundos após sua requisição.
 			\end{enumerate}
-		\subsection{Portabilidade}
+		\subsection{Portabilidade}\label{sec:RFN03}
 			\begin{enumerate}
 				\item O sistema deve ser web e adaptavel para dispositivos moveis.
 			\end{enumerate}
-		\subsection{Disponibilidade}
+		\subsection{Disponibilidade}\label{sec:RFN04}
 			\begin{enumerate}
 				\item O sistema deve estar 24 horas nos 7 dias da semenana online.
 			\end{enumerate}
@@ -259,18 +244,18 @@
 			\begin{tabular}{ |c|c|c|c| } 
 				\hline
 				Requisitos funcionais
-				RFN  & Casos de uso envolvidos
-				UCN \\
+				RF  & Casos de uso envolvidos
+				CU \\
 				\hline
-				~RFN \ref{RF1} & \ref{Lista:1} e \ref{Lista:2} \\ 
+				~RF \ref{RF1} & \ref{Lista:1} e \ref{Lista:2} \\ 
 				\hline
-				~RFN \ref{RF2}  e~RFN  \ref{RF3} & \ref{Lista:3}, \ref{Lista:4}, \ref{Lista:5} e \ref{Lista:6}   \\ 
+				~RF \ref{RF2}  e~RF  \ref{RF3} & \ref{Lista:3}, \ref{Lista:4}, \ref{Lista:5} e \ref{Lista:6}   \\ 
 				\hline
 			
 			\end{tabular}
 		\end{center}
 	
-	   \subsection{Caso de uso cadastro}
+	   \subsection{Caso de uso cadastro}\label{CU:01}
 		\begin{table}[H]
 			\caption{Caso de Uso de Cadastro}
 			\centering
@@ -281,7 +266,7 @@
 			\centering
 			\includegraphics[width=0.5\textheight]{Cadastro.png}
 		\end{figure}
-		\subsection{Caso de uso login}
+		\subsection{Caso de uso login}\label{CU:02}
 		\begin{table}[H]
 			\caption{Caso de Uso de Login}
 			\centering
@@ -292,7 +277,7 @@
 			\centering
 			\includegraphics[width=0.5\textheight]{Login.png}
 		\end{figure}
-		\subsection{Caso de uso gerenciador}
+		\subsection{Caso de uso gerenciador} \label{CU:03}
 		\begin{table}[H]
 			\caption{Caso de Uso de Gerenciador}
 			\centering
@@ -303,7 +288,7 @@
 			\centering
 			\includegraphics[width=0.5\textheight]{Gerenciamento.png}
 		\end{figure}
-		\subsection{Caso de uso consultas e relatórios}
+		\subsection{Caso de uso consultas e relatórios}\label{CU:04}
 		\begin{table}[H]
 			\caption{Caso de Uso de Consultas e Relatórios}
 			\centering
@@ -319,8 +304,8 @@
 		
 	\section{Lista de Regras de negócio}
 		\begin{enumerate}
-			\item Os gerenciadores só serão aceitos se forem da P2(Setor responsável pela medida protetiva na PM-MS).
-			\item As atualizações referente a medida protetiva só serão realizadas das 08:00 às 13:30 de Segunda à Sexta feira.
+			\item Os gerenciadores só serão aceitos se forem da P2(Setor responsável pela medida protetiva na PM-MS).\label{LISTAN:01}
+			\item As atualizações referente a medida protetiva só serão realizadas das 08:00 às 13:30 de Segunda à Sexta feira.\label{LISTAN:02}
 		\end{enumerate}
 	
 	
@@ -330,26 +315,61 @@
 		\begin{center}
 			\begin{tabular}{ |c|c|c|c| } 
 				\hline
-				Requisitos funcionais
-				RFN  & Casos de uso envolvidos
-				UCN \\
+				Regras de Negócio
+				RN  & Casos de uso envolvidos
+				CU \\
 				\hline
-				~RFN \ref{RF1} & \ref{Lista:1} e \ref{Lista:2} \\ 
-				\hline
-				~RFN \ref{RF2}  e~RFN  \ref{RF3} & \ref{Lista:3}, \ref{Lista:4}, \ref{Lista:5} e \ref{Lista:6}   \\ 
+				~RN \ref{LISTAN:01}  &  CU \ref{CU:03}  \\ 
 				\hline
 				
 			\end{tabular}
 		\end{center}
 		\subsection{Setor resposável}
-		
-		\subsection{Recuperar dados}
-
+			\begin{center}
 			
-	
-	
+					\begin{tabular}{|l|}
+						\hline
+						Casos de uso relacionados/Origem das regras de negócio: NÃO HÁ.  
+						\\ \hline
+						RN \ref{LISTAN:01}: Regras de aprovação de usuário gerenciador.                                                                   \\ \hline
+						Descrição: Para ser um gerenciador tem que pertencer Setor P-2. \\ \hline
+						Casos de uso relacionados/Origem das regras de negócio: CU \ref{CU:03}.                                                                   \\ \hline
+					\end{tabular}
+			
+			\end{center}
+		\subsection{Abastecimento dos dados}
 
-
+				\begin{center}
+				
+				\begin{tabular}{|l|}
+					
+					\hline
+					Casos de uso relacionados/Origem das regras de negócio: NÃO HÁ.  
+					\\ \hline
+					RN \ref{LISTAN:02}: Regras do horário para abastecimento dos dados.                                                                   \\ \hline
+					Descrição: Os dados somente serám abastecido  no sistema entre 07h as 14h. \\ \hline
+					Casos de uso relacionados/Origem das regras de negócio: NÃO HÁ.                                                                  \\ \hline
+				\end{tabular}
+				
+			\end{center}
+			\section{Glossário}
+	
+				\begin{center}
+				
+				\begin{tabular}{|l|}
+					
+					\hline
+			\textbf{Glossário}	  
+					\\ \hline
+					\textbf{Backup}: Cópia de segurança ou cópia de salvaguarda
+					 .                                                                   \\ \hline
+					
+					\textbf{Medida Protetiva}: Uma medida protetiva e um documento                                      \\ 
+					expedido pelo juiz com poder de proteção para a vitima.                           
+					\\ \hline
+				\end{tabular}
+				
+			\end{center}
 
 
 % ----------------------------------------------------------
@@ -361,7 +381,7 @@
 % ----------------------------------------------------------
 % Referências bibliográficas
 % ----------------------------------------------------------
-\bibliography{abntex2-modelo-references} %% REFERENCIA AO ARQUIVO abntex2-modelo-references.bib
+
 
 % ----------------------------------------------------------
 % Glossário
@@ -369,13 +389,7 @@
 %
 % Consulte o manual da classe abntex2 para orientações sobre o glossário.
 
-The \Gls{latex} typesetting markup language is specially suitable 
-for documents that include \gls{maths}. 
-
 \clearpage
-
-\printglossaries
-%\glossary
 
 % ----------------------------------------------------------
 % Apêndices
