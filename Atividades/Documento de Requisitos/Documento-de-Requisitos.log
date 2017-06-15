@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.6.3)  14 JUN 2017 17:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.6.3)  14 JUN 2017 21:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1205,13 +1205,13 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 ) [2] [3
 
 ] [4]
-<CU01.png, id=113, 722.7pt x 381.425pt>
+<CU01.png, id=114, 722.7pt x 381.425pt>
 File: CU01.png Graphic file (type png)
  <use CU01.png>
 Package pdftex.def Info: CU01.png used on input line 262.
 (pdftex.def)             Requested size: 354.0pt x 186.83586pt.
 
-<Cadastro.png, id=115, 491.8375pt x 321.2pt>
+<Cadastro.png, id=116, 491.8375pt x 321.2pt>
 File: Cadastro.png Graphic file (type png)
  <use Cadastro.png>
 Package pdftex.def Info: Cadastro.png used on input line 267.
@@ -1223,13 +1223,13 @@ Package pdftex.def Info: Cadastro.png used on input line 267.
                                                   \fi \fi 
 l.269 		\subsection
                    {Caso de uso login}\label{CU:02} <./CU01.png>]
-<CU02.png, id=129, 722.7pt x 381.425pt>
+<CU02.png, id=130, 722.7pt x 381.425pt>
 File: CU02.png Graphic file (type png)
  <use CU02.png>
 Package pdftex.def Info: CU02.png used on input line 273.
 (pdftex.def)             Requested size: 354.0pt x 186.83586pt.
 
-<Login.png, id=130, 491.8375pt x 321.2pt>
+<Login.png, id=131, 491.8375pt x 321.2pt>
 File: Login.png Graphic file (type png)
  <use Login.png>
 Package pdftex.def Info: Login.png used on input line 278.
@@ -1248,13 +1248,13 @@ l.280 		\subsection
                                                   \fi \fi 
 l.280 		\subsection
                    {Caso de uso gerenciador} \label{CU:03} <./Cadastro.png> <./
-CU02.png>] <CU03.png, id=141, 722.7pt x 381.425pt>
+CU02.png>] <CU03.png, id=142, 722.7pt x 381.425pt>
 File: CU03.png Graphic file (type png)
  <use CU03.png>
 Package pdftex.def Info: CU03.png used on input line 284.
 (pdftex.def)             Requested size: 354.0pt x 186.83586pt.
 
-<Gerenciamento.png, id=142, 491.8375pt x 321.2pt>
+<Gerenciamento.png, id=143, 491.8375pt x 321.2pt>
 File: Gerenciamento.png Graphic file (type png)
  <use Gerenciamento.png>
 Package pdftex.def Info: Gerenciamento.png used on input line 289.
@@ -1274,13 +1274,13 @@ ready used, duplicate ignored
                                                   \fi \fi 
 l.291 		\subsection
                    {Caso de uso consultas e relatórios}\label{CU:04} <./Login.
-png> <./CU03.png>] <CU04.png, id=151, 722.7pt x 451.6875pt>
+png> <./CU03.png>] <CU04.png, id=152, 722.7pt x 451.6875pt>
 File: CU04.png Graphic file (type png)
  <use CU04.png>
 Package pdftex.def Info: CU04.png used on input line 295.
 (pdftex.def)             Requested size: 354.0pt x 221.25299pt.
 
-<Consulta-Relatorio.png, id=152, 491.8375pt x 321.2pt>
+<Consulta-Relatorio.png, id=153, 491.8375pt x 321.2pt>
 File: Consulta-Relatorio.png Graphic file (type png)
 
 <use Consulta-Relatorio.png>
@@ -1340,10 +1340,10 @@ Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 462.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 462.
  ) 
 Here is how much of TeX's memory you used:
- 12730 strings out of 493013
- 182891 string characters out of 6135683
- 411743 words of memory out of 5000000
- 15973 multiletter control sequences out of 15000+600000
+ 12731 strings out of 493013
+ 182896 string characters out of 6135683
+ 411801 words of memory out of 5000000
+ 15974 multiletter control sequences out of 15000+600000
  68306 words of font info for 50 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  39i,12n,36p,570b,509s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1353,10 +1353,10 @@ are/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/
 lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmss12.pfb></usr/share/te
 xmf/fonts/type1/public/lm/lmss17.pfb></usr/share/texmf/fonts/type1/public/lm/lm
 ssbx10.pfb>
-Output written on Documento-de-Requisitos.pdf (13 pages, 551547 bytes).
+Output written on Documento-de-Requisitos.pdf (13 pages, 551110 bytes).
 PDF statistics:
- 317 PDF objects out of 1000 (max. 8388607)
- 271 compressed objects within 3 object streams
+ 318 PDF objects out of 1000 (max. 8388607)
+ 272 compressed objects within 3 object streams
  72 named destinations out of 1000 (max. 500000)
  285 words of extra memory for PDF output out of 10000 (max. 10000000)
 
