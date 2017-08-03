@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Medidas Protetivas</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+</head>
+
+<body>
+  <nav class="white" role="navigation">
+    <div class="nav-wrapper container">
+      <a id="logo-container" href="#" class="brand-logo">Medidas Protetivas</a>
+
+      <ul class="right hide-on-med-and-down">
+        <a class='dropdown-button btn' href='#' data-activates='dropdown1'>Menu</a>
+        <ul id='dropdown1' class='dropdown-content'>
+          <li><a href="#modall">Fotos</a></li>
+          <li><a href="#!">Mensagens</a></li>
+          <li class="divider"></li>
+          
+        </ul>
+      </ul>
+
+      <ul id="nav-mobile" class="side-nav">
+        <li>
+          <a href="#" >Inicio</a></li>
+      </ul>
+      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+    </div>
+  </nav>
+  <!-- Modal Structure -->
+  <div id="modall" class="modal">
+    <div class="modal-content">
+      <h4>Modal Header</h4>
+      <p>A bunch of text</p>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
+    </div>
+  </div>
+  <!-- Modal Structure -->
+  <div id="modal1" class="modal">
+    <div class="modal-content blue-grey lighten-5">
+
+      <div id="FormSection" class="row">
+
+        <div id="content" class="col s12  ">
+          <form>
+            <ul id="top" class="collapsible" data-collapsible="expandable">
+              <li>
+                <!-- TOP OF HEIRARCHY ---------------------------------------------------------------------------------------------------------------->
+                <div id="heirarchyTop" class="collapsible-header active"><i class="material-icons" style="color: red">success</i>Formulário Cadastro</div>
+                <div class="collapsible-body">
+                  <br />
+                  <div class="row ">
+                    <div class="input-field col s12 m4 l3">
+                      <span class="fieldLabel">Primeiro Nome</span>
+                      <input placeholder="Primeiro Nome" id="Primeiro" type="text" />
+                    </div>
+                    <div class="input-field col s12 m4 l3">
+                      <span class="fieldLabel">Segundo Nome</span>
+                      <input placeholder="Segundo Nome" id="LastName" type="text" />
+                    </div>
+                    <div class="input-field col s12 m4 l3">
+                      <span class="fieldLabel">Data de Aniversário</span>
+                      <input id="DOB" type="date" class="datepicker" />
+                    </div>
+                    <div class="input-field col s12 m4 l3">
+                      <span class="fieldLabel">Email 
+                              <span class="right-align">
+                                <a class="waves-effect waves-teal btn-flat fieldLink tooltipped fieldCopyButton" data-tooltip="copy"><i class="material-icons fieldIcon" style="color: green">content_copy</i></a>&nbsp;
+                                <a class="waves-effect waves-teal btn-flat fieldLink tooltipped fieldAddButton" data-tooltip="add"><i class="material-icons fieldIcon" style="color: green">add_circle_outline</i></a>&nbsp;
+                                <a class="waves-effect waves-teal btn-flat fieldLink tooltipped fieldRemoveButton" data-tooltip="remove"><i class="material-icons fieldIcon" style="color: red">remove_circle_outline</i></a>&nbsp;
+                              </span>
+                      </span>
+                      <input placeholder="Email" id="Email" type="email" />
+                    </div>
+
+                  </div>
+
+                  <!-- ADDRESSES ---------------------------------------------------------------------------------------------------------------->
+                  <div class="nestedCollapsible">
+                    <ul id="subsection1" class="collapsible" data-collapsible="expandable">
+                      <li>
+                        <div class="collapsible-header active">Endereço
+                        </div>
+
+                        <div class="collapsible-body">
+
+                          <br />
+                          <div class="row">
+
+                            <div class="input-field col s12 m4 l3">
+                              <span class="fieldLabel">Endereço</span>
+                              <input placeholder="Endereço" id="Address1" type="text" />
+                            </div>
+
+
+                            <div class="input-field col s12 m4 l3">
+                              <span class="fieldLabel">Cidade</span>
+                              <input placeholder="Cidade" id="City" type="text" />
+                            </div>
+
+
+                            <div class="input-field col s12 m4 l3">
+                              <span class="fieldLabel">CEP</span>
+                              <input placeholder="CEP" id="Zip" type="text" />
+                            </div>
+
+                            <div class="input-field col s12 m4 l3">
+                              <span class="fieldLabel">Telefone</span>
+                              <input placeholder="Telefone" id="Telephone" type="tel" />
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                      <li>
+                      </li>
+                      <li>
+                      </li>
+                    </ul>
+                  </div>  
+                  <!-- LONG TEXT SECTION ---------------------------------------------------------------------------------------------------------------->
+                  <div class="nestedCollapsible">
+                    <ul id="subsection1" class="collapsible" data-collapsible="expandable">
+                      <li>
+                        <div class="collapsible-header active">Denúncia</div>
+                        <div class="collapsible-body">
+                          <br />
+                          <div class="row">
+                            <div class="input-field col s12 m12 l12">
+                              <span class="fieldLabel">Escreva sua denúncia:</span>
+                              <textarea id="meaningOfLife" class="materialize-textarea" length="1000" maxlength="1000"></textarea>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+
+
+
+                  <!-- RADIO BUTTONS AND CHECKBOXES ---------------------------------------------------------------------------------------------------------------->
+                  <div class="nestedCollapsible">
+                    <ul id="subsection1" class="collapsible" data-collapsible="expandable">
+                      <li>
+                        <div class="collapsible-header active">Qual tipos de agressões já sofreu?</div>
+                        <div class="collapsible-body">
+                          <br />
+                          <div class="row">
+
+                            <div class="input-field col s12 m4 l3">
+                              <span class="fieldLabel">Bicuda</span>
+                              <div>
+                                <input name="group1" type="radio" id="test1" />
+                                <label for="test1">Enforcada</label>
+                                <br />
+                                <input name="group1" type="radio" id="test2" />
+                                <label for="test2">Presta Atenção</label>
+                                <br />
+                                <input name="group1" type="radio" id="test3" />
+                                <label for="test3">Soco na Cara</label>
+                                <br />
+                                <input name="group1" type="radio" id="test4" />
+                                <label for="test4">Soco no Ruim</label>
+                                <br />
+                                <input name="group1" type="radio" id="test5" />
+                                <label for="test5">Facada</label>
+                                <br /><br />
+                              </div>
+                            </div>
+
+                            <div class="input-field col s12 m4 l3">
+                              <span class="fieldLabel">Qual Frequência?</span>
+                              <div>
+                                <input type="checkbox" id="check1" />
+                                <label for="check1">Todos Dias</label>
+                                <br />
+                                <input type="checkbox" id="check2" />
+                                <label for="check2">Toda Hora</label>
+                                <br />
+                                <input type="checkbox" id="check3" />
+                                <label for="check3">Cedo</label>
+                                <br />
+                                <input type="checkbox" id="check4" />
+                                <label for="check4">Antes de Deitar</label>
+                                <br />
+                                <input type="checkbox" id="check5" />
+                                <label for="check5">Ao Levantar</label>
+                                <br /><br />
+                              </div>
+                            </div>
+
+                          </div>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+
+                </div>
+              </li>
+            </ul>
+          </form>
+        </div>
+        <!-- end content section -->
+      </div>
+
+      <div id="Section1" class="row" style="height:100%;  padding-top:4.7rem; display:none;">
+        <div class="content">
+          <div class="row">
+            <div class="col s12 m12 l6">
+              <div class="card blue-grey darken-1">
+                <div class="card-content white-text">
+                  <span class="card-title">Section 1</span>
+                  <p>Section 1 content to go here</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="Section2" class="row" style="height:100%;  padding-top:4.7rem; display:none;">
+        <div class="content">
+          <div class="row">
+            <div class="col s12 m12 l6">
+              <div class="card blue-grey darken-1">
+                <div class="card-content white-text">
+                  <span class="card-title">Section 2 Content</span>
+                  <p>Section 2 content to go here</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+      <!-- Modal Structure -->
+      <div id="bottom-dialog" class="modal bottom-sheet modal-fixed-footer">
+        <div class="modal-content">
+          <h4 id="bottomModalHeader">Header</h4>
+          <p id="bottomModalBody">A bunch of text</p>
+        </div>
+        <div class="modal-footer">
+          <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="modal-footer">
+      <a href="#!" onclick="Materialize.toast('Formulario Enviado Com Sucesso', 4000,'rounded') " class="modal-action modal-close waves-effect waves-green btn-flat">Enviar</a>
+
+      <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Fechar</a>
+    </div>
+  </div>
+  <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="row">
+        <div class="col s7"></div>
+        <div class="col s5" style="margin-top: -50px">
+          <div class="row">
+            <div class="card blue-grey darken-1">
+              <div class="card-content white-text">
+                <span class="card-title">Cadastra-se</span>
+                <p> Medidas protetivas e uma forma de coabir o agressor de praticar as agressões. A maior parte de agressões
+                  praticas contra mulheres 80% dos casos os agressores sao parentes. Para saber mais click em mais informações</p>
+              </div>
+              <div class="card-action">
+                <a class="waves-effect waves-light btn modal-trigger" href="#modal1">Cadastra-se</a>
+                <!-- <a class="waves-effect waves-light btn modal-trigger" href="#modal1">Modal</a> -->
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div class="container">
+
+
+          <h5 class="header col s12 " style="margin-left: 650px"></h5>
+        </div>
+      </div>
+      <div class="container">
+
+
+        <!-- <h5 class="header col s4 " style="margin-left: 650px">A modern responsive front-end framework based on Material Design</h5> -->
+      </div>
+      <!-- <h5 class="header col s8 " >A modern responsive front-end framework based on Material Design</h5> -->
+    </div>
+    <div class="parallax"><img src="imagens/violencia-domestica-nova.jpg" alt="Unsplashed background img 1"></div>
+  </div>
+  <div class="container">
+    <div class="section">
+
+      <!--   Icon Section   -->
+      <div class="row">
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center brown-text"><i class="material-icons">flash_on</i></h2>
+            <h5 class="center">Inciativa Fênix</h5>
+
+            <p class="light">Após a realização dos cinco primeiros encontros, as mulheres que participaram das reuniões elegeram, dentre várias
+              opções sugeridas, “Grupo Fênix” como nome do grupo. Elas relacionam a história da ave lendária da mitologia
+              grega com a atual situação que estão vivendo, na busca por um recomeço em suas vidas. “Muitas de nós estamos
+              ressurgindo das cinzas”, relatou uma delas.</p>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center brown-text"><i class="material-icons">group</i></h2>
+            <h5 class="center">Grupo de Apoio</h5>
+            <p class="light">No grupo é possível dividir experiências, conversar com pessoas em situação similar e externar sentimentos que,
+              em outros ambientes, seria difícil. As mulheres destacam a cumplicidade e a liberdade de expressão que a atividade
+              oportuniza. “No grupo posso falar tudo aquilo que tenho vergonha de falar. Aqui todos entendem o medo e sofrimento
+              que já enfrentei por conta da violência”, afirma outra pessoa que frequenta os encontros.</p>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center brown-text"><i class="material-icons">settings</i></h2>
+            <h5 class="center">Funcionamento do Projeto</h5>
+
+            <p class="light">O Centro de Referência e Atendimento à Mulher foi criado em abril de 1993 e conta com uma equipe de profissionais
+              das áreas de serviço social e psicologia, com atendimento interdisciplinar às mulheres em situação de violência
+              doméstica e intrafamiliar. Além disso, o CAM coordena e executa capacitações de agentes públicos e desenvolve
+              campanhas e ações de caráter preventivo, direcionados à comunidade em geral.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+  <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <h5 class="header col s12 light" style="margin-left: 550px">Indíce de violência domestica cresce 140% em 2017 Datafolha SP.</h5>
+        </div>
+      </div>
+    </div>
+    <div class="parallax" style=""><img src="imagens/violencia-contra-a-mulher.jpg" alt="Unsplashed background img 2"></div>
+  </div>
+
+  <div class="container">
+    <div class="section">
+
+      <div class="row">
+        <div class="col s12 center">
+          <h3><i class="mdi-content-send brown-text"></i></h3>
+          <h4>Sobre</h4>
+          <p class="left-align light">Os grupos começaram em junho e foram divididos inicialmente em dois módulos, sendo um para tratar de questões relacionadas
+            aos gêneros e outro para tratar da violência doméstica em si. Os encontros terão sequência neste segundo semestre
+            com a formação de novos grupos pelo CAM. A ideia é que as atividades ocorram semanalmente. O CAM fica na Avenida
+            Carlos Gomes, 145 – Jardim Petrópolis, Londrina. O horário de atendimento é de segunda à sexta-feira, das 8h
+            às 18h.
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+  <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+        </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="imagens/back-ground.png" alt="Unsplashed background img 3"></div>
+  </div>
+
+  <footer class="page-footer teal  blue-grey darken-1">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Grupo Fênix</h5>
+          <p class="grey-text text-lighten-4">O CAM fica na Avenida Carlos Gomes, 145 – Jardim Petrópolis, Londrina. O horário de atendimento é de segunda à
+            sexta-feira, das 8h às 18h.</p>
+
+        </div>
+        <div class="col l3 s12">
+        </div>
+        <div class="col l3 s12">
+          <h5 class="white-text">Disque denúncia</h5>
+          <ul>
+            <li><a class="white-text" href="#!">190</a></li>
+            <li><a class="white-text" href="#!">154</a></li>
+            <li><a class="white-text" href="#!">134</a></li>
+            <li><a class="white-text" href="#!">245</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+        By <a class="brown-text text-lighten-3" href="http://materializecss.com">Rafael Viana</a>
+      </div>
+    </div>
+  </footer>
+
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+
+</body>
+
+</html>
